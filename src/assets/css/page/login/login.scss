@@ -1,0 +1,81 @@
+#Login {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background: $loginBg;
+  background-size: cover!important;
+  .login-form-box {
+    width: 380px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    bottom: 0;
+    right: 172px;
+    margin: -250px 0 0 0;
+  }
+  .login-form {
+    height: 360px;
+    padding: 50px 44px 0;
+    border-radius: 4px;
+    background-color: #fff;
+  }
+  .el-form-item {
+    margin-bottom: 0 !important;
+  }
+  .el-input {
+    margin-bottom: 30px;
+    input {
+      height: 42px;
+      font-size: 16px;
+      color: #757575;
+    }
+  }
+  .el-form-item__error {
+    padding-top: 4px;
+    top: 65%;
+  }
+  .login-btn {
+    margin-top: 10px;
+    width: 100%;
+    height: 42px;
+    font-size: 18px;
+  }
+  .title-container {
+    position: relative;
+    .main-title {
+      font-size: 34px;
+      line-height: 34px;
+      color: #fff;
+      text-align: center;
+      font-weight: bold;
+      font-style: italic;
+      letter-spacing: 2px;
+    }
+    .line-box {
+      margin-bottom: 40px;
+      display: flex;
+      padding: 0 16px;
+    }
+    .line {
+      flex: 1;
+      background: $loginLine;
+      background-size: 1px 1px;
+    }
+    .min-title {
+      font-size: 20px;
+      line-height: 60px;
+      color: #fff;
+      text-align: center;
+      font-weight: normal;
+      letter-spacing: 1px;
+      margin: 0 16px;
+    }
+  }
+  .code-btn {
+    width: 100%;
+    letter-spacing: 1px;
+    padding: 0;
+    height: 42px;
+    font-size: 18px;
+  }
+}

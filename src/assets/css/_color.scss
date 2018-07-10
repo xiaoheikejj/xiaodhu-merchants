@@ -1,0 +1,34 @@
+//color_common
+$yellow_a:#f1c50e !default;
+$yellow_b:#fdd22e !default;
+$green_a:#52e99a !default;
+//app_common
+$border1px:#e4e4e4 !default;
+$primary:#3c8dbc !default; //主色调，用于字体，icon
+$logo:#367fa9 !default;
+$background_main:#ecf0f5 !default;
+$primary_a:#ffffff !default; //用于字体、背景
+$primary_b:#f2f2f2 !default; //用于背景;
+//font
+$font_a:#333333 !default; //用于字体
+$font_b:#999999 !default; //用于字体
+$font_c:#cccccc !default; //用于字体
+$font_d:#f9b26e !default; //用于字体
+$font_e:#fb9925 !default; //用于字体
+//icon
+$icon_a:#57c9fd !default; //用于icon
+$icon_b:#fd7c98 !default; //用于icon
+$icon_c:$yellow_a; //用于icon
+$icon_d:#abe463 !default; //用于icon
+$icon_e:$yellow_b; //用于icon
+$icon_f:$green_a; //用于icon
+$el_a:#67cc70 !default; // 用于按钮、选中
+$el_b:#e74c3c !default; // 用于按钮、小红点
+$el_c:$yellow_a; //用于标签
+$el_d:$yellow_b; //用于标签
+$el_e:$green_a; //用于标签
+$el_f:#fffad0 !default; //用于提示框
+$navbar_b:#fff !default;
+//特殊
+$telback:rgba(39, 161, 49, 0.2); //透明遮罩
+$maskback:rgba(0, 0, 0, 0.6); //弹出层背景

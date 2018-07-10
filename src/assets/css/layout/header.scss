@@ -1,0 +1,71 @@
+#Header {
+  position: relative;
+  user-select: none;
+  display: flex;
+  height: 60px;
+  line-height: 60px;
+  padding: 0 20px;
+  background-color: #2d3a4b;
+  .title {
+    width: 300px;
+    font-size: 16px;
+    height: 60px;
+    line-height: 60px;
+    color: #fff;
+  }
+  .info {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    &>div {
+      padding-left: 8px;
+      font-size: 15px;
+      // color: #fff;
+    }
+    .fullscreen {
+      float: right;
+      width: 40px;
+      height: 40px;
+      position: relative;
+      top: 10px;
+      right: 6px;
+      font-size: 24px;
+      // color: rgba(255, 255, 255, 0.8);
+      text-align: center;
+      line-height: 44px;
+      cursor: pointer;
+      transition: .3s all;
+      &:hover{
+          color: #409EFF;
+      }
+    }
+    .username {
+      display: block;
+      font-size: 18px; // color: #666;
+      // color: rgba(255, 255, 255, 0.8);
+      line-height: 60px;
+      cursor: pointer;
+      &:hover{
+          &>span {
+            color: #409EFF;
+          }
+          i{
+            color: #409EFF;
+          }
+      }
+      &>span {
+        display: inline-block;
+        line-height: 60px;
+        transition: .3s all;
+      }
+      i {
+        display: inline-block;
+        font-size: 20px;
+        line-height: 40px;
+        position: relative;
+        top: 4px;
+        transition: .3s all;
+      }
+    }
+  }
+}

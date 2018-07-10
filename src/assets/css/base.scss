@@ -1,0 +1,25 @@
+@import "images";
+@import "reset";
+
+
+@import "layout/home";
+@import "layout/header";
+@import "layout/sidenav";
+
+@import "page/login/login";//登录
+
+@import "page/index/index";//首页
+
+@import "page/CallPro/ProList";//计划列表
+@import "page/CallPro/PlanDetail";//计划详情
+
+@import "page/Crm/PrivateUser";//私海用户
+@import "page/Crm/PublicUser";//公海用户
+@import "page/Crm/CallRec";//通话记录
+@import "page/Crm/VisitPro";//拜访计划
+
+
+@import "page/Account/AccountMan";//子账户管理
+@import "page/Account/IdConfig";//权限配置
+@import "page/Account/SimMan";//手机卡管理
+@import "page/Account/VoiceTemplate";//语音模板管理

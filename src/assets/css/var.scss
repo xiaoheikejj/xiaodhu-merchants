@@ -1,0 +1,14 @@
+@import './_color.scss';
+@mixin clearfix {
+  &:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+  }
+}
+
+@mixin borderbottom($border:1px solid #e4e4e4)  {
+  border-bottom: $border
+}

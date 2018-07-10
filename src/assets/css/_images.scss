@@ -1,0 +1,25 @@
+// 图片主题路径
+$baseImageURL: '~sysAssets/images/' !default;
+
+
+// login
+$loginBg: url($baseImageURL+"login-bg.jpg") center center no-repeat;
+$loginLine: url($baseImageURL+"login-line.png") repeat-x center;
+
+// account
+$iconReturn: url($baseImageURL+"return.png") no-repeat 0 0px / 36px auto;
+
+
+$iconLabel: url($baseImageURL+"icon_label.png") no-repeat center;
+$iconProject: url($baseImageURL+"icon_project.png") no-repeat center;
+$iconTask: url($baseImageURL+"icon_task.png") no-repeat center;
+
+$iconRobot: #efefef url($baseImageURL+"voice-robot.png") no-repeat center;
+$iconUser: #efefef url($baseImageURL+"voice-user.png") no-repeat center bottom;
+
+$iconReturn: url($baseImageURL+"return.png") no-repeat 0 0px;
+
+
+$logoBg: url($baseImageURL + "logo.png") no-repeat left center / 35px auto;
+$iconPlayer: url($baseImageURL + "parse.png") no-repeat left center;
+$iconPlayerActive: url($baseImageURL + "notparse.png") no-repeat left center;
